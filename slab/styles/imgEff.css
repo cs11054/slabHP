@@ -1,0 +1,28 @@
+/* ‰æ‘œ‚Ì“®‚«‚±‚±‚©‚ç */
+.anim:hover {
+	animation: animScale 0.5s ease-out;
+	-webkit-animation: animScale 0.5s ease-out;
+	-moz-animation: animScale 0.5s ease-out;
+}
+@keyframes animScale {
+	0% { transform: scale(0.9, 0.9); }
+	40% { transform: scale(1.2, 1.2); }
+	60% { transform: scale(1, 1); }
+	80% { transform: scale(1.1, 1.1); }
+	100% { transform: scale(1, 1); }
+}
+@-webkit-keyframes animScale {
+	0% { -webkit-transform: scale(0.9, 0.9); }
+	40% { -webkit-transform: scale(1.2, 1.2); }
+	60% { -webkit-transform: scale(1, 1); }
+	80% { -webkit-transform: scale(1.1, 1.1); }
+	100% { -webkit-transform: scale(1, 1); }
+}
+@-moz-keyframes animScale {
+	0% { -moz-transform: scale(0.9, 0.9); }
+	40% { -moz-transform: scale(1.2, 1.2); }
+	60% { -moz-transform: scale(1, 1); }
+	80% { -moz-transform: scale(1.1, 1.1); }
+	100% { -moz-transform: scale(1, 1); }
+}
+/* ‰æ‘œ‚Ì“®‚«‚±‚±‚Ü‚Å */

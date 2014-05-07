@@ -2,13 +2,11 @@
 <html>
 <head>
 <meta charset=utf-8>
-<title>HTML5 example</title>
+<title>静岡大学情報学部 酒井研究室</title>
 <link rel="stylesheet" href="./styles/style.css" type="text/css">
+<link rel="stylesheet" href="./styles/imgEff.css" type="text/css">
 <script
-	src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.0/jquery.min.js">
-	
-</script>
-
+	src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.0/jquery.min.js"></script>
 </head>
 
 <body>
@@ -18,24 +16,46 @@
 		<div id="my_header">&nbsp;酒井研究室</div>
 
 		<div id="my_contents">
+
 			<div id="menu">
 				<ul>
-					<li><a href="#">研究内容</a></li>
-					<li><a href="#">メンバー</a></li>
-					<li><a href="#">活動</a></li>
-					<li><a href="#">リンク集</a></li>
+					<li><a href="#">研究内容</a>
+						<ul>
+							<li><a href="#" class="documents">Documents</a></li>
+							<li><a href="#" class="messages">Messages</a></li>
+							<li><a href="#" class="signout">Sign Out</a></li>
+						</ul></li>
+					<li><a href="#">メンバー</a>
+						<ul>
+							<li><a href="#" class="documents">教授</a></li>
+							<li><a href="#" class="messages">助教</a></li>
+							<li><a href="#" class="signout">学生</a></li>
+						</ul></li>
+					<li><a href="#">活動</a>
+						<ul>
+							<li><a href="#" class="documents">Documents</a></li>
+							<li><a href="#" class="messages">Messages</a></li>
+							<li><a href="#" class="signout">Sign Out</a></li>
+						</ul></li>
+					<li><a href="#">リンク集</a>
+						<ul>
+							<li><a href="#" class="documents">Documents</a></li>
+							<li><a href="#" class="messages">Messages</a></li>
+							<li><a href="#" class="signout">Sign Out</a></li>
+						</ul></li>
 				</ul>
 			</div>
+
 			<div id="topimg">
 				<img src="./imgs/topimg.png">
 			</div>
 
 			<div id="subimg">
 				<ul>
-					<li><img src="./imgs/logo.png"></li>
-					<li><img src="./imgs/member.png"></li>
-					<li><img src="./imgs/mtzw.png"></li>
-					<li><img src="./imgs/ski.png"></li>
+					<li><img src="./imgs/logo.png" class="anim"></li>
+					<li><img src="./imgs/member.png" class="anim"></li>
+					<li><img src="./imgs/mtzw.png" class="anim"></li>
+					<li><img src="./imgs/ski.png" class="anim"></li>
 				</ul>
 			</div>
 

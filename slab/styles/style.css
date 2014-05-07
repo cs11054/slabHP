@@ -1,37 +1,5 @@
 body {
-	background-color:#34495e
-}
-
-#menu ul {
-	margin: 0;
-	padding: 0;
-	list-style: none;
-}
-
-#menu li {
-	display: inline;
-	padding: 0;
-	margin: 0;
-	float: left;
-}
-
-#menu li a {
-	display: block;
-	border-left: 8px solid #b22222;
-	background-color: #2e8b57;
-	border-left: 8px solid #f39c12;
-	background-color: #3498db;
-	padding: 3px 10px;
-	text-decoration: none;
-	color: #E1E2CF;
-	width: 222px;
-	margin: 1px 0px;
-	font-size: 14px;
-}
-
-#menu li a:hover {
-	border-left: 8px solid #e74c3c;
-	background-color: #27ae60;
+	background-color: #34495e
 }
 
 * {
@@ -74,7 +42,6 @@ body {
 	position: fixed !important;
 	position: absolute;
 	background-color: #f39c12;
-	/*background-image: url("../imgs/header.png");*/
 }
 
 #my_footer {
@@ -87,3 +54,76 @@ body {
 	background-color: #f39c12;
 	width: 1000px;
 }
+
+/* メニューここから  */
+
+#menu{
+
+}
+
+#menu ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#menu li ul {
+	position: absolute;
+	opacity: 0;
+	-webkit-border-radius: 0 0 5px 5px;
+	-moz-border-radius: 0 0 5px 5px;
+	border-radius: 0 0 5px 5px;
+	-webkit-transition: opacity .25s ease .1s;
+	-moz-transition: opacity .25s ease .1s;
+	-o-transition: opacity .25s ease .1s;
+	-ms-transition: opacity .25s ease .1s;
+	transition: opacity .25s ease .1s;
+	left: 0;
+}
+
+#menu ul li {
+    padding: 0;
+
+    -webkit-transition: height .25s ease .1s;
+    -moz-transition: height .25s ease .1s;
+    -o-transition: height .25s ease .1s;
+    -ms-transition: height .25s ease .1s;
+    transition: height .25s ease .1s;
+}
+
+
+
+#menu li:hover>ul {
+	opacity: 1;
+}
+
+#menu li {
+	display: inline;
+	padding: 0;
+	margin: 0;
+	float: left;
+	position: relative;
+}
+
+#menu li a {
+	display: block;
+	border-left: 8px solid #b22222;
+	background-color: #2e8b57;
+	border-left: 8px solid #f39c12;
+	background-color: #3498db;
+	padding: 8px 10px;
+	text-decoration: none;
+	color: #E1E2CF;
+	width: 222px;
+	margin: 1px 0px;
+	font-size: 14px;
+}
+
+#menu li a:hover {
+	border-left: 8px solid #e74c3c;
+	background-color: #27ae60;
+}
+
+/* メニューここまで  */
+
+
