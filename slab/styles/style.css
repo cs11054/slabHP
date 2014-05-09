@@ -56,9 +56,8 @@ body {
 }
 
 /* メニューここから  */
-
-#menu{
-
+#menu {
+	
 }
 
 #menu ul {
@@ -82,16 +81,13 @@ body {
 }
 
 #menu ul li {
-    padding: 0;
-
-    -webkit-transition: height .25s ease .1s;
-    -moz-transition: height .25s ease .1s;
-    -o-transition: height .25s ease .1s;
-    -ms-transition: height .25s ease .1s;
-    transition: height .25s ease .1s;
+	padding: 0;
+	-webkit-transition: height .25s ease .1s;
+	-moz-transition: height .25s ease .1s;
+	-o-transition: height .25s ease .1s;
+	-ms-transition: height .25s ease .1s;
+	transition: height .25s ease .1s;
 }
-
-
 
 #menu li:hover>ul {
 	opacity: 1;
@@ -126,4 +122,10 @@ body {
 
 /* メニューここまで  */
 
+/* コンテンツここから */
+#contents {
+	background-color: #bdc3c7;
+	color:#2c3e50;
+}
 
+/* コンテンツここまで */
