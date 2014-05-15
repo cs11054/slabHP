@@ -39,7 +39,6 @@ body {
 	color: #FFFFFF;
 	width: 1000px;
 	height: 60px;
-	position: fixed !important;
 	position: absolute;
 	background-color: #f39c12;
 }
@@ -67,6 +66,7 @@ body {
 }
 
 #menu li {
+	z-index: 3;
 	display: inline;
 	padding: 0;
 	margin: 0;
@@ -75,6 +75,7 @@ body {
 }
 
 #menu>ul>li>ul {
+	z-index: 3;
 	visibility: hidden;
 	position: absolute;
 	opacity: 0;
@@ -117,7 +118,7 @@ body {
 
 /* コンテンツここから */
 #contents {
-	background-color: #bdc3c7;
+	background-color:#ecf0f1;
 	color: #2c3e50;
 	margin: 10px 0px 0px 0px;
 }
