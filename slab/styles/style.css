@@ -39,7 +39,6 @@ body {
 	color: #FFFFFF;
 	width: 1000px;
 	height: 60px;
-	position: fixed !important;
 	position: absolute;
 	background-color: #f39c12;
 }
