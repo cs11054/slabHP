@@ -75,6 +75,7 @@ body {
 }
 
 #menu>ul>li>ul {
+	z-index: 3;
 	visibility: hidden;
 	position: absolute;
 	opacity: 0;
