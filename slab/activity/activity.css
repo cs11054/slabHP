@@ -1,4 +1,4 @@
-#activitylist li{
+#activitylist li {
 	margin: 20px 0px 0px 0px;
 	position: relative;
 	left: 50px;
@@ -6,6 +6,13 @@
 	color: #2ecc71;
 	font-size: 20pt;
 }
-#activitylist li a{
+
+#activitylist li a {
 	color:#2c3e50;
+}
+h1 {
+	position: relative;
+	top: 10px;
+	margin: 10px 10px 30px 10px;
+	border-bottom: 5px #9b59b6 solid;
 }
