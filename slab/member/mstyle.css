@@ -1,0 +1,44 @@
+#memberlist li {
+	margin: 20px 0px 0px 0px;
+	position: relative;
+	left: 20px;
+}
+
+#memberlist ul>li {
+	position: relative;
+	left: 50px;
+	list-style: square outside;
+	color: #2ecc71;
+	list-style-image: none;
+	list-style: square outside;
+}
+
+#memberlist ul>li span {
+	color: #2c3e50;
+}
+
+#memberlist>li {
+	list-style: none;
+	font-size: 20pt;
+	border-bottom: 5px #9b59b6 solid;
+	width: 600px;
+}
+
+#memberlist>li>span {
+	margin-left: 18px;
+	font-size: 60%;
+	color: #BBB;
+	position: relative;
+	top: -8px;
+}
+
+h1 {
+	position: relative;
+	top: 10px;
+	margin: 10px 10px 30px 10px;
+	border-bottom: 5px #9b59b6 dashed;
+}
+
+.intro {
+	text-align: center;
+}
