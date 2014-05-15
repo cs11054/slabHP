@@ -3,10 +3,22 @@
 <head>
 <meta charset=utf-8>
 <title>静岡大学情報学部 酒井研究室</title>
-<link rel="stylesheet" href="./styles/style.css" type="text/css">
-<link rel="stylesheet" href="./styles/imgEff.css" type="text/css">
+<link rel="stylesheet" href="../styles/style.css" type="text/css">
+<link rel="stylesheet" href="../styles/imgEff.css" type="text/css">
+<link rel="stylesheet" href="./research.css" type="text/css">
 <script
 	src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.0/jquery.min.js"></script>
+<script>
+	$(function() {
+		$('#exec').click(function() {
+			$('#cont').load('./template.html');
+		});
+		$('#exec2').click(function() {
+			$('#cont').load('./template.html');
+		});
+	})
+</script>
+
 </head>
 
 <body>
@@ -43,12 +55,21 @@
 						</ul></li>
 				</ul>
 			</div>
-			<div id="contents">ここに必要なことを書く予定。</div>
+			<div id="exec">リスト</div>
+			<div id="exec2">リスト2</div>
+			<div id="list">
+				<ul>
+					<li>list1</li>
+					<li>list2</li>
+				</ul>
+			</div>
+
+			<div id="cont"></div>
+
+
+			<div id="my_footer">&copy; sakailab All Rights Reserved.</div>
+
 		</div>
-
-		<div id="my_footer">&copy; sakailab All Rights Reserved.</div>
-
-	</div>
 </body>
 
 </html>
