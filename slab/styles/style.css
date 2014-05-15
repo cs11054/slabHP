@@ -66,33 +66,6 @@ body {
 	list-style: none;
 }
 
-#menu li ul {
-	position: absolute;
-	opacity: 0;
-	-webkit-border-radius: 0 0 5px 5px;
-	-moz-border-radius: 0 0 5px 5px;
-	border-radius: 0 0 5px 5px;
-	-webkit-transition: opacity .25s ease .1s;
-	-moz-transition: opacity .25s ease .1s;
-	-o-transition: opacity .25s ease .1s;
-	-ms-transition: opacity .25s ease .1s;
-	transition: opacity .25s ease .1s;
-	left: 0;
-}
-
-#menu ul li {
-	padding: 0;
-	-webkit-transition: height .25s ease .1s;
-	-moz-transition: height .25s ease .1s;
-	-o-transition: height .25s ease .1s;
-	-ms-transition: height .25s ease .1s;
-	transition: height .25s ease .1s;
-}
-
-#menu li:hover>ul {
-	opacity: 1;
-}
-
 #menu li {
 	display: inline;
 	padding: 0;
@@ -101,7 +74,27 @@ body {
 	position: relative;
 }
 
-#menu li a {
+#menu>ul>li>ul {
+	visibility: hidden;
+	position: absolute;
+	opacity: 0;
+	-webkit-border-radius: 0 0 5px 5px;
+	-moz-border-radius: 0 0 5px 5px;
+	border-radius: 0 0 5px 5px;
+	-webkit-transition: opacity .40s ease .1s;
+	-moz-transition: opacity .40s ease .1s;
+	-o-transition: opacity .40s ease .1s;
+	-ms-transition: opacity .40s ease .1s;
+	transition: opacity .40s ease .1s;
+	left: 0;
+}
+
+#menu>ul>li:hover>ul {
+	visibility: visible;
+	opacity: 1;
+}
+
+#menu ul li a {
 	display: block;
 	border-left: 8px solid #b22222;
 	background-color: #2e8b57;
@@ -125,8 +118,8 @@ body {
 /* コンテンツここから */
 #contents {
 	background-color: #bdc3c7;
-	color:#2c3e50;
-	margin:10px 0px 0px 0px;
+	color: #2c3e50;
+	margin: 10px 0px 0px 0px;
 }
 
 /* コンテンツここまで */
