@@ -1,10 +1,10 @@
-#zemilist li {
+#questionlist li {
 	margin: 20px 0px 0px 0px;
 	position: relative;
 	left: 20px;
 }
 
-#zemilist ul>li {
+#questionlist ul>li {
 	position: relative;
 	left: 50px;
 	list-style: square outside;
@@ -12,18 +12,26 @@
 	list-style-image: none;
 }
 
-#zemilist ul>li>span {
+#questionlist ul>li>span {
 	color: #2c3e50;
+	font-weight: bold;
 }
 
-#zemilist>li {
+#questionlist ul>li>span>span {
+	position: relative;
+	left: 20px;
+	color: #2c3e50;
+	font-weight: normal;
+}
+
+#questionlist>li {
 	list-style: none;
 	font-size: 20pt;
 	border-bottom: 5px #9b59b6 solid;
 	width: 600px;
 }
 
-#zemilist>li>span {
+#questionlist>li>span {
 	margin-left: 18px;
 	font-size: 60%;
 	color: #BBB;
