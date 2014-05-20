@@ -14,9 +14,17 @@
 
 #zemilist ul>li>span {
 	color: #2c3e50;
+	font-weight: bold;
 }
 
-#zemilist>li {
+#zemilist ul>li>span>span {
+	position: relative;
+	left: 20px;
+	color: #2c3e50;
+	font-weight: normal;
+}
+
+/*#zemilist>li {
 	list-style: none;
 	font-size: 20pt;
 	border-bottom: 5px #9b59b6 solid;
@@ -29,7 +37,7 @@
 	color: #BBB;
 	position: relative;
 	top: -8px;
-}
+}*/
 
 h1 {
 	position: relative;

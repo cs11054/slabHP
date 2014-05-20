@@ -1,4 +1,4 @@
-#activitylist li {
+#linklist li {
 	margin: 20px 0px 0px 0px;
 	position: relative;
 	left: 50px;
@@ -6,7 +6,7 @@
 	color: #2ecc71;
 }
 
-#activitylist li a {
+#linklist li a {
 	color:#2c3e50;
 	font-weight: bold;
 }
