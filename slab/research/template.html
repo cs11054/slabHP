@@ -10,12 +10,25 @@
 	src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.0/jquery.min.js"></script>
 <script>
 	$(function() {
-		$('#exec').click(function() {
-			$('#cont').load('./template.html');
+		$('#theme2007').click(function() {
+			$('#research_contents').load('./contents/research2007.html');
 		});
-		$('#exec2').click(function() {
-			$('#cont').load('./template.html');
+		$('#theme2006').click(function() {
+			$('#research_contents').load('./contents/research2006.html');
 		});
+		$('#theme2005').click(function() {
+			$('#research_contents').load('./contents/research2005.html');
+		});
+		$('#theme2004').click(function() {
+			$('#research_contents').load('./contents/research2004.html');
+		});
+		$('#theme2003').click(function() {
+			$('#research_contents').load('./contents/research2003.html');
+		});
+		$('#theme2002').click(function() {
+			$('#research_contents').load('./contents/research2002.html');
+		});
+		$('#research_contents').load('./contents/research2007.html');
 	})
 </script>
 
@@ -55,17 +68,20 @@
 						</ul></li>
 				</ul>
 			</div>
-			<div id="exec">リスト</div>
-			<div id="exec2">リスト2</div>
-			<div id="list">
+
+			<div id="navigation">
+				<h2>年度</h2>
 				<ul>
-					<li>list1</li>
-					<li>list2</li>
+					<li id="theme2007">2007年度研究テーマ</li>
+					<li id="theme2006">2006年度研究テーマ</li>
+					<li id="theme2005">2005年度研究テーマ</li>
+					<li id="theme2004">2004年度研究テーマ</li>
+					<li id="theme2003">2003年度研究テーマ</li>
+					<li id="theme2002">2002年度研究テーマ</li>
 				</ul>
 			</div>
 
-			<div id="cont"></div>
-
+			<div id="research_contents"></div>
 
 			<div id="my_footer">&copy; sakailab All Rights Reserved.</div>
 
