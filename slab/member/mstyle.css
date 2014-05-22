@@ -42,3 +42,9 @@ h1 {
 .intro {
 	text-align: center;
 }
+
+.list li {
+	position: relative;
+	padding: 5px 0px 20px 0px;
+	left: 20px;
+}
