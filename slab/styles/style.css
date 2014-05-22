@@ -7,6 +7,10 @@ body {
 	padding: 0;
 }
 
+a {
+	text-decoration: none;
+}
+
 #my_contents {
 	padding: 70px 0px 0px;
 }
