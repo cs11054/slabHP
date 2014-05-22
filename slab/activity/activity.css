@@ -1,5 +1,5 @@
 #activitylist li {
-	margin: 20px 0px 0px 0px;
+	margin: 30px 0px 0px 0px;
 	position: relative;
 	left: 50px;
 	list-style: square outside;
@@ -9,19 +9,31 @@
 #activitylist li a {
 	color:#2c3e50;
 	font-weight: bold;
+	style: text-decoration: none;
 }
-/*h1 {
+
+#activitylist li span {
 	position: relative;
-	top: 10px;
-	margin: 10px 10px 30px 10px;
-	border-bottom: 5px #9b59b6 dashed;
-}*/
+	left: 20px;
+	color: #2c3e50;
+	font-weight: normal;
+}
 
 h1 {
 	position: relative;
 	top: 10px;
 	margin: 10px 10px 30px 10px;
-	/*padding: 20;*/
-	border-bottom: #cfc url('001.GIF');
-	border: 0px none;
+	border-bottom: 5px #9b59b6 dashed;
+}
+
+.kamiya {
+	position: relative;
+	top: 25px;
+	margin: 10px 10px 50px 20px;
+	border-bottom: 3px #9b59b6 dotted;
+	/*padding: 20px;
+	background: url('./002.GIF');
+	background-position:left bottom;
+	background-repeat:repeat-x;
+	border: 0px none;*/
 }
