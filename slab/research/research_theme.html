@@ -1,0 +1,98 @@
+<!Doctype HTML>
+<html>
+<head>
+<meta charset=utf-8>
+<title>静岡大学情報学部 酒井研究室</title>
+<link rel="stylesheet" href="../styles/style.css" type="text/css">
+<link rel="stylesheet" href="../styles/imgEff.css" type="text/css">
+<link rel="stylesheet" href="./research.css" type="text/css">
+<script
+	src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.0/jquery.min.js"></script>
+<script>
+	$(function() {
+		$('#theme2007').click(function() {
+			$('#research_contents').load('./contents/research2007.html');
+		});
+		$('#theme2006').click(function() {
+			$('#research_contents').load('./contents/research2006.html');
+		});
+		$('#theme2005').click(function() {
+			$('#research_contents').load('./contents/research2005.html');
+		});
+		$('#theme2004').click(function() {
+			$('#research_contents').load('./contents/research2004.html');
+		});
+		$('#theme2003').click(function() {
+			$('#research_contents').load('./contents/research2003.html');
+		});
+		$('#theme2002').click(function() {
+			$('#research_contents').load('./contents/research2002.html');
+		});
+
+	})
+</script>
+
+</head>
+
+<body>
+
+	<div id="my_body">
+
+		<div id="my_header">&nbsp;Sakai Lab</div>
+
+		<div id="my_contents">
+
+			<div id="menu">
+				<ul>
+					<li><a href="#">研究内容</a>
+						<ul>
+							<li><a href="#" class="documents">研究テーマ</a></li>
+							<li><a href="#" class="messages">原著論文</a></li>
+						</ul></li>
+					<li><a href="#">メンバー</a>
+						<ul>
+							<li><a href="#" class="documents">教授</a></li>
+							<li><a href="#" class="messages">助教</a></li>
+							<li><a href="#" class="signout">学生</a></li>
+						</ul></li>
+					<li><a href="#">活動</a>
+						<ul>
+							<li><a href="#" class="documents">ゼミ</a></li>
+							<li><a href="#" class="messages">アルバム</a></li>
+							<li><a href="#" class="signout">Q&A</a></li>
+						</ul></li>
+					<li><a href="#">リンク集</a>
+						<ul>
+							<li><a href="#" class="documents">大学関連</a></li>
+							<li><a href="#" class="messages">学会</a></li>
+						</ul></li>
+				</ul>
+			</div>
+
+			<div id="navigation">
+				<h2>年度</h2>
+				<ul>
+					<li id="theme2007">2007年度研究テーマ</li>
+					<li id="theme2006">2006年度研究テーマ</li>
+					<li id="theme2005">2005年度研究テーマ</li>
+					<li id="theme2004">2004年度研究テーマ</li>
+					<li id="theme2003">2003年度研究テーマ</li>
+					<li id="theme2002">2002年度研究テーマ</li>
+				</ul>
+			</div>
+
+			<div id="research_contents">
+
+				<h2>研究内容</h2>
+				<p>ソフトウェアの生産性や信頼性がなかなか上がらないことが大きな問題となっています。これを解決する鍵は「ソフトウェアの部品化と再利用」だと思います。つまり、新たにプログラムを作らずに、過去に作成されたプログラムを再利用するということです。これを可能にする鍵はオブジェクト指向とプログラム理解です。</p>
+
+				<p>教育へのIT技術の活用が提唱され、インターネット接続などのインフラが整備され、それを利用した教育の推進に期待が高まっています。プログラミング技術の習得を支援するための学習システム、学生と教師が協調的にレポートの添削を行うシステム、Web教材のオーサリングシステムなどの研究をしています。</p>
+
+			</div>
+
+			<div id="my_footer">&copy; sakailab All Rights Reserved.</div>
+
+		</div>
+</body>
+
+</html>

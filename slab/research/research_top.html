@@ -6,32 +6,9 @@
 <link rel="stylesheet" href="../styles/style.css" type="text/css">
 <link rel="stylesheet" href="../styles/imgEff.css" type="text/css">
 <link rel="stylesheet" href="./research.css" type="text/css">
+
 <script
 	src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.0/jquery.min.js"></script>
-<script>
-	$(function() {
-		$('#theme2007').click(function() {
-			$('#research_contents').load('./contents/research2007.html');
-		});
-		$('#theme2006').click(function() {
-			$('#research_contents').load('./contents/research2006.html');
-		});
-		$('#theme2005').click(function() {
-			$('#research_contents').load('./contents/research2005.html');
-		});
-		$('#theme2004').click(function() {
-			$('#research_contents').load('./contents/research2004.html');
-		});
-		$('#theme2003').click(function() {
-			$('#research_contents').load('./contents/research2003.html');
-		});
-		$('#theme2002').click(function() {
-			$('#research_contents').load('./contents/research2002.html');
-		});
-		$('#research_contents').load('./contents/research2007.html');
-	})
-</script>
-
 </head>
 
 <body>
@@ -68,24 +45,22 @@
 						</ul></li>
 				</ul>
 			</div>
+			<div id="contents">
 
-			<div id="navigation">
-				<h2>年度</h2>
-				<ul>
-					<li id="theme2007">2007年度研究テーマ</li>
-					<li id="theme2006">2006年度研究テーマ</li>
-					<li id="theme2005">2005年度研究テーマ</li>
-					<li id="theme2004">2004年度研究テーマ</li>
-					<li id="theme2003">2003年度研究テーマ</li>
-					<li id="theme2002">2002年度研究テーマ</li>
-				</ul>
+				<div id="link">
+					<a href="research_theme.html">研究テーマ</a>
+					<p>原著論文</p>
+				</div>
+
+				<div id="image">
+				
+				</div>
 			</div>
-
-			<div id="research_contents"></div>
-
-			<div id="my_footer">&copy; sakailab All Rights Reserved.</div>
-
 		</div>
+
+		<div id="my_footer">&copy; sakailab All Rights Reserved.</div>
+
+	</div>
 </body>
 
 </html>

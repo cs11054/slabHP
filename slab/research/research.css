@@ -24,8 +24,15 @@
 	background-color: white;
 	padding-left: 20px;
 	line-height: 30px;
-	list-style-type: hebrew;
 }
+
+#link{
+	font-size:20px;
+	width: 250px;
+	background-color:green;
+	line-height:40px;
+}
+
 
 #my_footer {
 	clear: both;
