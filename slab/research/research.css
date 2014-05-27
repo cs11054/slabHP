@@ -33,6 +33,27 @@
 	line-height:40px;
 }
 
+#contents{
+	padding:20px;
+}
+
+#contents ul {
+	padding-left:30px;
+}
+
+/* ƒXƒNƒ[ƒ‹‚µ‚Ä‚à‚Â‚¢‚Ä‚­‚écss
+#side {
+top: 200px;
+position: fixed;
+z-index: 1;
+margin-left:-160px;
+width: 120px;
+padding:10px;
+background:#ffffff;
+floot:lerf;
+}
+*/
+
 
 #my_footer {
 	clear: both;
