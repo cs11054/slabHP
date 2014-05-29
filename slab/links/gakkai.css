@@ -9,7 +9,7 @@
 	left: 50px;
 	list-style: square outside;
 	color: #2ecc71;
-	list-style-image: none;
+	/*list-style-image: none;*/
 }
 
 #gakkailist ul>li>span {
@@ -26,7 +26,7 @@
 #gakkailist li a {
 	position: relative;
 	left: 20px;
-	color:#2c3e50;
+	/*color:#2c3e50;*/
 	font-weight: normal;
 }
 
@@ -49,7 +49,7 @@ h1 {
 	position: relative;
 	top: 25px;
 	margin: 10px 10px 50px 20px;
-	border-bottom: 5px #9b59b6 dashed;
+	border-bottom: 5px #3498db dashed;
 }
 
 /*.intro {
