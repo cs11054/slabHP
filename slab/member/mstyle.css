@@ -20,7 +20,7 @@
 #memberlist>li {
 	list-style: none;
 	font-size: 20pt;
-	border-bottom: 5px #9b59b6 solid;
+	border-bottom: 5px #2980b9 solid;
 	width: 600px;
 }
 
@@ -36,7 +36,7 @@ h1 {
 	position: relative;
 	top: 10px;
 	margin: 10px 10px 30px 10px;
-	border-bottom: 5px #9b59b6 dashed;
+	border-bottom: 5px #45a1de dashed;
 }
 
 .intro {
