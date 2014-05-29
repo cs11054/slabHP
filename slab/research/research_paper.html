@@ -9,6 +9,26 @@
 
 <script
 	src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.0/jquery.min.js"></script>
+<script src="./jquery.dimensions.js"></script>
+<script>
+	var name = "#side";
+	var menuYloc = null;
+
+	$(document).ready(
+			function() {
+				menuYloc = parseInt($(name).css("top").substring(0,
+						$(name).css("top").indexOf("px")))
+				$(window).scroll(function() {
+					offset = menuYloc + $(window).scrollTop() + "px";
+					$(name).animate({
+						top : offset
+					}, {
+						duration : 900,
+						queue : false
+					});
+				});
+			});
+</script>
 </head>
 
 <body>
@@ -45,7 +65,29 @@
 						</ul></li>
 				</ul>
 			</div>
-			<div id="contents">
+
+			<div id="side">
+				<ul>
+					<li><a href="#2014">2014</a></li>
+				</ul>
+				<ul>
+					<li><a href="#2013">2013</a></li>
+				</ul>
+				<ul>
+					<li><a href="#2012">2012</a></li>
+				</ul>
+				<ul>
+					<li><a href="#2011">2011</a></li>
+				</ul>
+				<ul>
+					<li><a href="#2010">2010</a></li>
+				</ul>
+				<ul>
+					<li><a href="#2014">test</a></li>
+				</ul>
+			</div>
+
+			<div id="paper_contents">
 
 				<div id="2014">
 					<h1>2014</h1>
@@ -313,21 +355,16 @@
 					<ul>
 						<li>教科書委員会委員（2008.2.26〜） 報酬無し</li>
 					</ul>
-					<h4>先導的ITスペシャリスト育成推進プログラム改善委員会委員（2008.4.1〜2009.3.31）　報酬無し</h4>
+					<h4>先導的ITスペシャリスト育成推進プログラム改善委員会委員（2008.4.1〜2009.3.31） 報酬無し</h4>
 				</div>
-
-
+				<!-- #paper_contents -->
 			</div>
-
-			<div id="side">
-				<a href="#2014">test</a>
-			</div>
-
-
+			<!-- #my_contents -->
 		</div>
 
 
 		<div id="my_footer">&copy; sakailab All Rights Reserved.</div>
+
 
 	</div>
 </body>

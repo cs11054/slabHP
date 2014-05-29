@@ -2,8 +2,8 @@
 	float: left;
 	background-color: white;
 	width: 200px;
-	list-style: none; 
-	border-width : 2px;
+	list-style: none;
+	border-width: 2px;
 	border-color: #FFEEDB;
 	border-style: ridge;
 	padding-left: 22px;
@@ -26,34 +26,48 @@
 	line-height: 30px;
 }
 
-#link{
-	font-size:20px;
+#link {
+	font-size: 20px;
 	width: 250px;
-	background-color:green;
+	background-color: green;
+	line-height: 40px;
+}
+
+#paper_contents {
+	background-color: #ecf0f1;
+	color: #2c3e50;
+	margin: 10px 0px 0px 0px;
+	padding: 20px;
+	width: 800px;
+	position:absolute;
+	top:90px;
+	left:400px;
+}
+
+#paper_contents ul {
+	padding-left: 30px;
+}
+
+#paper_contents h1 {
+	margin: 10px 10px 10px 0;
+}
+
+#side {
+	width: 130px;
+	height: 300px;
+	background-color: #ecf0f1;
+	color: #2c3e50;
+	position: absolute;
+	top: 100px;
+	left: : 10px;
+	padding: 20px;
+	font-size:30px;
 	line-height:40px;
 }
 
-#contents{
-	padding:20px;
+#side li{
+	list-style-type:none;
 }
-
-#contents ul {
-	padding-left:30px;
-}
-
-/* ÉXÉNÉçÅ[ÉãÇµÇƒÇ‡Ç¬Ç¢ÇƒÇ≠ÇÈcss
-#side {
-top: 200px;
-position: fixed;
-z-index: 1;
-margin-left:-160px;
-width: 120px;
-padding:10px;
-background:#ffffff;
-floot:lerf;
-}
-*/
-
 
 #my_footer {
 	clear: both;
