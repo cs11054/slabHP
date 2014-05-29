@@ -67,7 +67,7 @@ a {
 	margin: 0;
 	padding: 0;
 	list-style: none;
-}	
+}
 
 #menu li {
 	z-index: 3;
@@ -122,9 +122,12 @@ a {
 
 /* コンテンツここから */
 #contents {
-	background-color:#ecf0f1;
+	background-color: #ecf0f1;
 	color: #2c3e50;
 	margin: 10px 0px 0px 0px;
 }
 
 /* コンテンツここまで */
+#topimg {
+	z-index: 1;
+}
