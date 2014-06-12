@@ -6,9 +6,18 @@
 	border-width: 2px;
 	border-color: #FFEEDB;
 	border-style: ridge;
-	padding-left: 22px;
 	line-height: 30px;
 	border-width: 2px;
+}
+
+#navigation li{
+	list-style-type:none;
+}
+
+#navigation li:hover {
+	background: #f39c12;
+	color: #fff;
+
 }
 
 #navigation h2 {
@@ -28,10 +37,18 @@
 
 #link {
 	font-size: 20px;
-	width: 250px;
-	background-color: green;
 	line-height: 40px;
+	padding:10px;
 }
+
+#link p{
+	font-size: 15px;
+}
+
+#link img{
+	margin:0 0 0 730px;
+}
+
 
 #paper_contents {
 	background-color: #ecf0f1;
@@ -47,10 +64,6 @@
 	padding-left: 30px;
 }
 
-/* #paper_contents h1 { */
-/* 	margin: 10px 10px 10px 0; */
-/* 	border: 5px solid #F78303; */
-/* } */
 
 #paper_contents h1 {
 	background-color: #f39c12;
@@ -88,7 +101,6 @@
 		sans-serif;
 	margin: 0;
 	padding: 0;
-	list-style: none;
 	list-style-type: none;
 }
 
