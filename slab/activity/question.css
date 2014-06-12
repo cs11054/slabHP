@@ -1,0 +1,50 @@
+#questionlist li {
+	margin: 30px 0px 0px 0px;
+	position: relative;
+}
+
+#questionlist ul>li {
+	position: relative;
+	left: 50px;
+	list-style: square outside;
+	color: #2ecc71;
+	list-style-image: none;
+}
+
+#questionlist ul>li>span {
+	color: #2c3e50;
+	font-weight: bold;
+}
+
+#questionlist ul>li>span>span {
+	position: relative;
+	left: 20px;
+	color: #2c3e50;
+	font-weight: normal;
+}
+
+/*#questionlist>li {
+	list-style: none;
+	font-size: 20pt;
+	border-bottom: 5px #9b59b6 solid;
+	width: 600px;
+}
+
+#questionlist>li>span {
+	margin-left: 18px;
+	font-size: 60%;
+	color: #BBB;
+	position: relative;
+	top: -8px;
+}*/
+
+h1 {
+	position: relative;
+	top: 25px;
+	margin: 10px 10px 50px 20px;
+	border-bottom: 5px #3498db dashed;
+}
+
+/*.intro {
+	text-align: center;
+}*/

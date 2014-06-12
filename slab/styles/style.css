@@ -7,9 +7,9 @@ body {
 	padding: 0;
 }
 
-a {
+/*a {
 	text-decoration: none;
-}
+}*/
 
 #my_contents {
 	padding: 70px 0px 0px;
@@ -122,12 +122,9 @@ a {
 
 /* コンテンツここから */
 #contents {
-	background-color: #ecf0f1;
+	background-color:#ecf0f1;
 	color: #2c3e50;
 	margin: 10px 0px 0px 0px;
 }
 
 /* コンテンツここまで */
-#topimg {
-	z-index: 1;
-}
