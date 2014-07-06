@@ -21,7 +21,7 @@ ID「cs11054」、PASS「slabHP」
 2.アップロードしたファイルを/var/www/slab/に移動
 
 SSHでginger.cs.inf.shizuoka.ac.jpに接続
-ID「cs11054」、PASS「slabHP」
+ID「俺に聞け！」、PASS「俺に聞け！」
 $su -
 PASSは「俺に聞け！」
 でスーパーユーザーになる
